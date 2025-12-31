@@ -1,30 +1,3 @@
-graph TD
-    subgraph Chrome_Browser ["Chrome Browser Environment"]
-        UI[("Popup UI (popup.html / popup.js)")]
-        CS["Content Script (content.js)"]
-        BG["Background Service Worker (background.js)"]
-        Store[("Chrome Storage (API Key)")]
-        CtxMenu["Context Menu"]
-    end
-
-    subgraph External ["External Services"]
-        Gemini[("Google Gemini Pro API")]
-    end
-
-    %% Connections
-    CS -- "Extract Selected Code" --> UI
-    CtxMenu -- "Right Click: Analyze Code" --> BG
-    BG -- "Open Popup" --> UI
-    
-    UI -- "1. Get API Key" --> Store
-    UI -- "2. Send Code + Prompt" --> BG
-    
-    BG -- "3. API Request" --> Gemini
-    Gemini -- "4. Return Analysis" --> BG
-    BG -- "5. Send Result" --> UI
-    
-    UI -- "Display Result" --> User((User))
-
 
 # Algospark (Leetcode-Assistant-Extension - AI Code Helper ) 
 
