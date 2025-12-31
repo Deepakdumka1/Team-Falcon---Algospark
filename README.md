@@ -1,8 +1,7 @@
-# Code-Assistant-Chrome-Extension - AI Code Helper  
+# Leetcode-Assistant-Extension - AI Code Helper  
 
 A Chrome extension that provides AI-powered code analysis, explanations, optimization suggestions, and debugging help using Google's Gemini Pro API.
 
-link - https://chromewebstore.google.com/detail/code-assistant-ai-code-he/nfifhhjfpkpmhpcfgdcckkcdanfbeaah
 ## Features
 
 ### Analysis Types
@@ -79,17 +78,7 @@ link - https://chromewebstore.google.com/detail/code-assistant-ai-code-he/nfifhh
 
 ## File Structure
 
-```
-coding-helper-extension/
-├── manifest.json          # Extension configuration
-├── popup.html            # Main UI
-├── popup.css             # Styling
-├── popup.js              # UI logic
-├── background.js         # Service worker
-├── content.js            # Injected into web pages
-├── icons/                # Extension icons
-└── README.md             # This file
-```
+
 
 ## Permissions
 
@@ -120,15 +109,6 @@ coding-helper-extension/
 - Make sure you have selected text before using context menu
 - Try using the manual input method
 - Check that the content script is loaded (refresh the page)
-
-## Development
-
-To modify or extend this extension:
-
-1. Make changes to the source files
-2. Go to `chrome://extensions/`
-3. Click the refresh button on the extension
-4. Test your changes
 
 ## License
 
