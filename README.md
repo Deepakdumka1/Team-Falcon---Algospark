@@ -1,4 +1,4 @@
-# Leetcode-Assistant-Extension - AI Code Helper  
+# Algospark (Leetcode-Assistant-Extension - AI Code Helper ) 
 
 A Chrome extension that provides AI-powered code analysis, explanations, optimization suggestions, and debugging help using Google's Gemini Pro API.
 
