@@ -189,7 +189,7 @@ Based on industry data, academic studies, and primary research:
 - *Deepak Dumka*  
 - *Shubham Loshali*  
 - *Pawan Bisht*  
-- *Nitin Vishwakarma*
+- *Nitin Vishwkarma*
 
 ---
 
